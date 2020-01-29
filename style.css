@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+
+    /* font-family: 'Long Cang', cursive; */
+
+}
+.menu{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding-top: 5px;
+}
+
+h1{
+    font-family: 'Long Cang', cursive;
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 1%;
+    font-size: 3em;
+}
+
+nav{
+    float: right;
+
+}
+
+nav a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav li{
+    display: inline;
+    padding: 1.6em;   
+}
+
+.header{
+background-image: url(/image/frame.jpg);
+background-size: cover;
+background-repeat:no-repeat ;
+background-position: center;
+padding: 25em;
+}
+
+.div1{
+    color: white;
+}
+h2{
+font-size: xx-large ;
+color: white;
+}
+
+.sec3{
+    background-color: rgb(218, 218, 218);
+    
+}
+
+h3{
+    padding-top: 3em;
+margin-left: 10em ;
+font-size: 1.5em;
+}
+
+.trop_chere{
+    display: flex;
+    justify-content: center;
+    padding: 3em 20em 5em 20em;
+}
+.appart1{
+    display: block;
+    background-color:white;
+    text-align: center;
+    margin: 1em;
+}
+
+.appart2{
+    background-color:white;
+    text-align: center;
+    margin: 1em;
+}
+
+.appart3{
+    background-color:white;
+    text-align: center;
+    margin: 1em;
+    align-content: space-between;
+}
+
+.empty{
+    border-top: 2px solid black;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xdr{
+    text-align: center;
+    margin: 2em 5.5em;
+}
+.xdr-prix{ 
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    
+}
+
+.immo{
+    color: orange;
+}
+
+.sec4{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+}
+.poto{
+    justify-content: flex-start;
+}
+.equi{
+    color: white;
+    justify-content: start;
+    align-self: center;
+    padding-right: 18em;
+    margin-left: -13em;
+}
+
+.sec5{
+background-color: rgb(193, 193, 193);
+background-size: cover;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    justify-content: space-around;
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-bottom: 6em;
+}
+
+.shadow1{
+    align-self: flex-start;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    display: grid;
+    grid-template: 40% 30% 30%/90% 10%;
+    background-color: white;
+    margin-bottom: 2em;
+    padding-top: 1em;
+}
+
+
+.shadow2{
+    align-self:center;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template: 40% 30% 30%/10% 90%;
+    padding-top: 1em;
+}
+.commis{
+    text-align: center;
+}
+
+.border{
+    border-radius: 50%;
+}
+
+.it1{
+    text-align: center;
+    grid-area:1/1 ;
+}
+
+.it2 {
+grid-area: 2/1;
+    text-align: center;
+}
+
+.it3 {
+    grid-area: 3/1;
+    text-align: center;
+}
+
+.it4{
+    grid-area: 1/2;
+    text-align: center;
+}
+
+.it5{
+    text-align: center;
+    grid-area: 2/2;
+}
+
+.it6{
+    grid-area: 3/2;
+    text-align: center;
+}
+
+.it7{
+    text-align: center;
+    grid-area: 2/2;
+}
+
+.it8{
+    grid-area: 2/1;
+    text-align: center;
+}
+
+.sec6{
+    background-color: #333333 ;
+    padding: 5em;
+}
+
+.formu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11em;
+}
+
+.contact{
+    background-color: #333333;
+    border: none;
+    border-bottom: 2px solid #454545;
+    margin: 1em 0 1em 0;
+
+    
+}
+.question{
+    background-color: #333333;
+    border: none;
+    border-bottom: 2px solid #454545;
+}
+.contact-p{
+    color: #565551;
+}
+h5{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.soumettre{
+    display: block;
+    background-color: #f1c40f;
+    padding: 0.5em;
+    margin-top: 3em;
+    margin-left: 45%;
+    width: 9%;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+
+}
